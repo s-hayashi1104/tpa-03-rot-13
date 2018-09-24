@@ -1,4 +1,4 @@
-import { convertRot13 } from './logic.js';
+import { convertRot13 } from './convert.js';
 
 const handleBtnConvert = function() {
   const sourceText = document.querySelector('#container .source-text').value;

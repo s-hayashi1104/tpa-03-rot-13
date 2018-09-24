@@ -1,4 +1,4 @@
-import { handleBtnConvert } from './view.js';
+import { handleBtnConvert } from './convertHandle.js';
 
 const initPage = function() {
   const form = document.querySelector('#container .form-convert');
@@ -10,5 +10,5 @@ const initPage = function() {
 
 export{
   initPage,
-}
+};
 
